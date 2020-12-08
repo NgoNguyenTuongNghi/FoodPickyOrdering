@@ -22,3 +22,7 @@ Software   :  XAMPP
 nghi_ngo nghi123
 thinh_diep thinh123
 trong_nguyen trong123
+
+# Admin
+admin_thinh thinh123
+admin_trong trong123
