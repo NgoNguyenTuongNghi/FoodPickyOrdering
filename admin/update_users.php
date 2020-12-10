@@ -178,15 +178,15 @@ if (isset($_POST['submit'])) {
                         </li>
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-archive f-s-20 color-warning"></i><span class="hide-menu">Store</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="allrestraunt.php">All Stores</a></li>
+                                <li><a href="allrestaurant.php">All Stores</a></li>
                                 <li><a href="add_category.php">Add Category</a></li>
-                                <li><a href="add_restraunt.php">Add Restaurant</a></li>
+                                <li><a href="add_restaurant.php">Add Restaurant</a></li>
 
                             </ul>
                         </li>
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-cutlery" aria-hidden="true"></i><span class="hide-menu">Menu</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="all_menu.php">All Menues</a></li>
+                                <li><a href="all_menu.php">All Menus</a></li>
                                 <li><a href="add_menu.php">Add Menu</a></li>
 
 
@@ -332,7 +332,7 @@ if (isset($_POST['submit'])) {
             </div>
             <!-- End Container fluid  -->
             <!-- footer -->
-            <footer class="footer"> © 2018 All rights reserved. </footer>
+            <footer class="footer"> © 2020 All rights reserved - FoodPicky - TNT Team </footer>
             <!-- End footer -->
         </div>
         <!-- End Page wrapper  -->

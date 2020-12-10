@@ -210,7 +210,7 @@ if (empty($_SESSION['user_id'])) {
                                             <thead>
                                                 <tr>
                                                     <th>Món</th>
-                                                    <th>Số lưỢng</th>
+                                                    <th>Số lượng</th>
                                                     <th>Giá</th>
                                                     <th>Tình trạng</th>
                                                     <th>Thời gian</th>

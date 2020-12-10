@@ -130,15 +130,15 @@ session_start();
                         </li>
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-archive f-s-20 color-warning"></i><span class="hide-menu">Store</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="allrestraunt.php">All Stores</a></li>
+                                <li><a href="allrestaurant.php">All Stores</a></li>
                                 <li><a href="add_category.php">Add Category</a></li>
-                                <li><a href="add_restraunt.php">Add Restaurant</a></li>
+                                <li><a href="add_restaurant.php">Add Restaurant</a></li>
 
                             </ul>
                         </li>
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-cutlery" aria-hidden="true"></i><span class="hide-menu">Menu</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="all_menu.php">All Menues</a></li>
+                                <li><a href="all_menu.php">All Menus</a></li>
                                 <li><a href="add_menu.php">Add Menu</a></li>
 
 
@@ -255,7 +255,7 @@ session_start();
 																								
 																								<td>' . $rows['date'] . '</td>
 																									 <td><a href="delete_stores.php?res_del=' . $rows['rs_id'] . '" class="btn btn-danger btn-flat btn-addon btn-xs m-b-10"><i class="fa fa-trash-o" style="font-size:16px"></i></a> 
-																									 <a href="update_restraunt.php?res_upd=' . $rows['rs_id'] . '" class="btn btn-info btn-flat btn-addon btn-sm m-b-10 m-l-5"><i class="ti-settings"></i></a>
+																									 <a href="update_restaurant.php?res_upd=' . $rows['rs_id'] . '" class="btn btn-info btn-flat btn-addon btn-sm m-b-10 m-l-5"><i class="ti-settings"></i></a>
 																									</td></tr>';
                                                 }
                                             }
@@ -300,7 +300,7 @@ session_start();
     </div>
     <!-- End Container fluid  -->
     <!-- footer -->
-    <footer class="footer"> © 2018 All rights reserved. </footer>
+    <footer class="footer"> © 2020 All rights reserved - FoodPicky - TNT Team </footer>
     <!-- End footer -->
     </div>
     <!-- End Page wrapper  -->

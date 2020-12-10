@@ -32,18 +32,15 @@ session_start();
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Trang chủ <span class="sr-only">(current)</span></a> </li>
                             <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Cửa hàng <span class="sr-only"></span></a> </li>
 							<?php
-						if(empty($_SESSION["user_id"]))
-							{
-								echo '  <li class="nav-item"><a href="login.php" class="nav-link active">Đăng nhập</a> </li>
-							            <li class="nav-item"><a href="registration.php" class="nav-link active">Đăng ký</a> </li>';
-							}
-						else
-							{
-									//if user is login
-									echo  '<li class="nav-item"><a href="your_orders.php" class="nav-link active">Đơn đã đặt</a> </li>';
-									echo  '<li class="nav-item"><a href="logout.php" class="nav-link active">Đăng xuất</a> </li>';
-							}
-						?>
+                                if(empty($_SESSION["user_id"])) {
+                                    echo '  <li class="nav-item"><a href="login.php" class="nav-link active">Đăng nhập</a> </li>
+                                            <li class="nav-item"><a href="registration.php" class="nav-link active">Đăng ký</a> </li>';
+                                }
+                                else {
+                                    echo  '<li class="nav-item"><a href="your_orders.php" class="nav-link active">Đơn đã đặt</a> </li>';
+                                    echo  '<li class="nav-item"><a href="logout.php" class="nav-link active">Đăng xuất</a> </li>';
+                                }
+                            ?>
                         </ul>
                     </div>
                 </div>
@@ -61,7 +58,7 @@ session_start();
                                 <div class="form-group">
                                     <input type="text" class="form-control form-control-lg" id="exampleInputAmount" placeholder="Tôi muốn ...."> </div>
                             </div>
-                            <button onclick="location.href='restaurants.html'" type="button" class="btn theme-btn btn-lg">Tìm kiếm</button>
+                            <button onclick="location.href='restaurants.php'" type="button" class="btn theme-btn btn-lg">Tìm kiếm</button>
                         </form>
                     </div>
                     <div class="steps">
