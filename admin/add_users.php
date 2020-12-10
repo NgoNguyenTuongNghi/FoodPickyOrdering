@@ -73,7 +73,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <title>Add Users</title>
+    <title>Add User</title>
     <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="css/helper.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -124,7 +124,7 @@
                                     <li><a href="#"><i class="ti-wallet"></i> Balance</a></li>
                                     <li><a href="#"><i class="ti-email"></i> Inbox</a></li>
                                     <li><a href="#"><i class="ti-settings"></i> Setting</a></li>
-                                    <li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
+                                    <li><a href="logout.php"><i class="fa fa-power-off"></i> Logout</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -147,7 +147,7 @@
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"> <span><i class="fa fa-user f-s-20 "></i></span><span class="hide-menu">Users</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="all_users.php">All Users</a></li>
-                                <li><a href="add_users.php">Add Users</a></li>
+                                <li><a href="add_users.php">Add User</a></li>
                             </ul>
                         </li>
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-archive f-s-20 color-warning"></i><span class="hide-menu">Store</span></a>
@@ -189,7 +189,7 @@
                         <div class="col-lg-12">
                             <div class="card card-outline-primary">
                                 <div class="card-header">
-                                    <h4 class="m-b-0 text-white">Add Users</h4>
+                                    <h4 class="m-b-0 text-white">Add User</h4>
                                 </div>
                                 <div class="card-body">
                                     <form action='' method='post' enctype="multipart/form-data">
