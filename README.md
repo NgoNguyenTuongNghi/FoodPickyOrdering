@@ -17,3 +17,12 @@ Class: 59.CNTT-2 - Faculty of Infomation Technology - Nha Trang University
 
 # System Requirements
 Software   :  XAMPP
+
+# Username password
+nghi_ngo nghi123
+thinh_diep thinh123
+trong_nguyen trong123
+
+# Admin
+admin_thinh thinh123
+admin_trong trong123
