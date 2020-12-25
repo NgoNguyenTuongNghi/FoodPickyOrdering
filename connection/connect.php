@@ -2,8 +2,8 @@
 
 //main connection file for both admin & front end
 $servername = "localhost"; //server
-$username = "root"; //username
-$password = ""; //password
+$username = "food"; //username
+$password = "food123@"; //password
 $dbname = "online_rest";  //database
 
 // Create connection
